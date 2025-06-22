@@ -48,3 +48,65 @@ This project exemplifies how state-of-the-art AI tools and LLM technologies can 
 - Cloud deployment and DevOps practices
 
 The subsequent sections will dive deeper into each component, illustrating the resources used, the technical challenges faced, and the skills acquired throughout the project lifecycle.
+
+## Step 2: Resources Used
+
+### Programming Languages and Frameworks
+
+- **Python:**  
+  The primary programming language for building the chatbot backend, handling data processing, API development, and integration of AI models.
+
+- **FastAPI:**  
+  A modern, high-performance web framework for building the RESTful API server that serves the chatbot. FastAPI offers asynchronous capabilities, type hints, and automatic documentation generation.
+
+- **Streamlit (optional):**  
+  Used for developing a simple and intuitive frontend interface to interact with the chatbot, allowing users to submit queries and see responses in a web app format.
+
+### AI and NLP Libraries
+
+- **LangChain:**  
+  A powerful framework for managing the flow of prompts, chains, and memory in language model applications. It helps in orchestrating document loading, text splitting, embeddings, and chat models.
+
+- **HuggingFace Transformers and Embeddings:**  
+  Utilized for generating semantic vector embeddings (`all-MiniLM-L6-v2` model), which convert textual information into vectors suitable for similarity search.
+
+- **Chroma Vector Database:**  
+  A lightweight, efficient vector database for storing and querying vector embeddings. Enables fast retrieval of relevant document chunks based on semantic similarity.
+
+- **OpenRouter API:**  
+  Access to state-of-the-art LLMs (specifically `mistralai/mistral-7b-instruct`) via OpenRouter API, which powers the chatbot’s natural language generation.
+
+### Other Key Tools and Packages
+
+- **Pydantic:**  
+  For data validation and settings management within FastAPI.
+
+- **Python-dotenv:**  
+  To securely manage environment variables such as API keys.
+
+- **Requests:**  
+  For HTTP communication with the OpenRouter API endpoint.
+
+- **Text Splitters:**  
+  RecursiveCharacterTextSplitter from LangChain to efficiently break down long documents into smaller, contextually meaningful chunks for better embedding and retrieval.
+
+- **Uvicorn:**  
+  ASGI server used to run the FastAPI application.
+
+### Cloud and Deployment Platforms
+
+- **Render.com:**  
+  Selected as the hosting platform to deploy the FastAPI backend and any frontend components. Offers seamless Git integration, automatic builds, and supports containerized applications.
+
+### Development Environment
+
+- **Virtual Environments:**  
+  Python `venv` was used to isolate project dependencies and ensure a clean development environment.
+
+- **Git and GitHub:**  
+  Version control and code repository hosting, enabling collaboration and deployment pipelines.
+
+---
+
+This comprehensive stack of technologies and tools was essential for building a robust, scalable, and maintainable chatbot tailored to my profile. The integration of these components facilitated smooth development workflows and seamless deployment of the chatbot to a live environment.
+
