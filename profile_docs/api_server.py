@@ -1,6 +1,6 @@
 import os
 import requests
-from fastapi import FastAPI, Request
+from fastapi import FastAPI
 from pydantic import BaseModel
 from dotenv import load_dotenv
 from langchain_community.vectorstores import Chroma
@@ -8,14 +8,12 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.messages import SystemMessage, HumanMessage
 from langchain_core.language_models import BaseChatModel
-from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_community.document_loaders import TextLoader
 
-# Load .env
+# Load environment variables
 load_dotenv()
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
-# 🔹 Custom OpenRouter LLM Class
+# 🔹 Custom LLM using OpenRouter
 class OpenRouterChat(BaseChatModel):
     def _generate(self, messages, **kwargs):
         headers = {
@@ -40,26 +38,19 @@ class OpenRouterChat(BaseChatModel):
     def _llm_type(self) -> str:
         return "openrouter-chat"
 
-# 🔹 Prepare embeddings
+# 🔹 Load prebuilt vector DB
 embedding = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+vectordb = Chroma(persist_directory="db", embedding_function=embedding)
 
-# 🔹 Load & split documents
-loader = TextLoader("portfolio_text.txt")
-docs = loader.load()
-splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
-chunks = splitter.split_documents(docs)
-
-# 🔹 Build vector database
-vectordb = Chroma.from_documents(chunks, embedding=embedding, persist_directory="db")
-
-# 🔹 Create FastAPI app
+# 🔹 Initialize FastAPI
 app = FastAPI()
 llm = OpenRouterChat()
 
-# 🔹 Chat schema
+# 🔹 Request schema
 class ChatRequest(BaseModel):
     query: str
 
+# 🔹 Chat endpoint
 @app.post("/chat")
 async def chat(request: ChatRequest):
     try:

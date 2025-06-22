@@ -1,0 +1,455 @@
+
+
+
+Langat Vincent
+DATA ANALYST || DATA SCiENTiST || ML/AI ENGiNEER
+(+254) 712230453
+|
+Portfolio
+|
+vincentl@aims.ac.za
+|
+Vinylango25
+|
+kipkemoi-vincent-19307a94/
+Summary
+A highly skilled Data Scientist with over 5 years experience in machine learning, data analytics, and predictive modeling. I spe-
+cialize in anomaly & fraud detection, credit scoring, and developing scalable machine Learning models for capital markets. With
+a strong background in Python, SQL, and data visualization, I excel at transforming complex datasets into actionable insights
+across diverse sectors, including climate, fintech, healthcare, and agri-tech. Passionate about leveraging advanced analytics to
+optimize decision-making, minimize risks, and deliver data-driven solutions for business growth.
+Expertise
+• Technical Stack: Proficient in Python, R, SQL, LaTeX, Git, Jupyter Notebook, VS Code, SageMath, Gretl, DBeaver,
+PostgreSQL, and Python Django for data analysis, modeling, and software development.
+• Data Visualization & BI: Expertise in designing automated dashboards, visualizations, and reports using Tableau, Preset,
+Matplotlib, Seaborn, Plotly, and Bokeh for effective communication of business insights.
+• Machine Learning & Predictive Analytics: Experienced in building ML models (RF, XGBoost, CatBoost, LGBM, PyOD
+models, e.t.c ) and time series forecasting (ARIMA, LSTM, fbprophet) using frameworks like Keras, Pytorch, TensorFlow and
+scikit-learn for classification, regression and forecasting.
+• Data Engineering & Cloud Computing: Skilled in ETL processes, data pipeline automation, and cloud platforms (AWS,
+Azure, GCP) for scalable storage and processing using services like S3, EC2, and Google BigQuery.
+• MLOps, Deployment, & Project Management: Experienced in managing projects, version control with Git, and CI/CD
+workflows for streamlined deployment. Proficient in productionizing ML models with Streamlit, Docker, Kubernetes, MLflow,
+and Databricks, ensuring scalability and monitoring.
+Experience
+Prospect 33
+New York, Remote
+DATA SCIENTIST (R&D)
+Feb. 2025–Date
+• Responsible for researching, developing and deploying a Semi-Supervised Active Learning based Anomaly Detection ML models
+to accurately detect and remediate anomalies in financial and operational datasets.
+Key Achievements:
+• Developed and deployed an active-learning-based Isolation Forest model that incorporate domain-specific client feedback and
+expert insights to iteratively improve accuracy and reduce false positives.
+• Co-developed DIVA and LEAP, flagship fraud and anomaly detection platforms at Prospect 33 for capital markets. Built scal-
+able, adaptive models requiring minimal expert input, improving detection accuracy, reducing false positives, and accelerating
+time-to-value in high-stakes trading and compliance contexts.
+• Strengthened backend and frontend capabilities within the LEAP application by enhancing API design and system architec-
+ture using Python, Django, and Django REST Framework—contributing to improved platform performance, scalability, and
+developer eﬀiciency.
+• Developed an explainability framework integrating SHAP, LIME, and gradient-based methods within the LEAP platform,
+enabling clear, localized insights into anomaly detection decisions—boosting stakeholder trust, model transparency, and regu-
+latory alignment.
+• Engaged closely with stakeholders to gather and prioritize product requirements, ensuring alignment between business needs
+and development efforts—driving targeted feature delivery and maximizing product impact.
+JUNIOR DATA SCIENTIST (Global Data Lab)
+Jun. 2024-jan. 2025
+• Researched and developed advanced anomaly detection techniques for financial and credit data, integrating explainability
+frameworks to enhance model transparency and interpretability. link
+Twino (Moneza Kenya)
+Westlands, Nairobi, Kenya
+DATA SCIENTIST
+May. 2023 - Jan. 2025
+Responsible for developing and managing loan portfolio credit scoring models for both pay day loans (PDL) and buy now pay
+later (BNPL) products, analyzing trends and risks, generating actionable reports, implementing risk rules, and collaborating
+with teams to ensure data accuracy and minimize fraud.
+Achievements:
+• Developed and deployed credit scoring (XGBoost) and fraud detection (CatBoost) models using TransUnion and SEON data,
+significantly improving loan approval accuracy and strengthening fraud prevention measures.
+• Created an automated loan default dashboard tracking daily, weekly, and monthly default rates, enabling proactive risk mon-
+itoring and delivering actionable insights that informed continuous improvements in credit risk models.
+• Automated payment and debt collection reporting for back-oﬀice teams using PostgreSQL, streamlining operations and enabling
+data-driven decision-making to improve collection outcomes and reduce processing time.
+• Gained in-depth expertise in SQL querying using DBeaver and PostgreSQL to extract and analyze data. Integrated insights
+into Preset for automated dashboards, enhancing reporting eﬀiciency and enabling real-time, data-driven decision-making.
+• Led and mentored a team of junior analysts, fostering skill development and driving the successful delivery of data-driven
+solutions in business intelligence, fraud detection, and credit risk analysis—enhancing team performance and accelerating
+project outcomes.
+• Partnered cross-functionally to align technical solutions with business objectives, integrating fraud detection, credit risk, and
+compliance strategies to drive cohesive, high-impact outcomes.
+Mananasi Fibre Ltd
+Thika, Kenya
+DATA ANALYST AND REPORTiNG SPECiALiST
+July. 2022 – April. 2023
+Leading data analysis and reporting efforts for two climate focused pilot projects funded by the UK’s SMEP and DEFRA
+programs: (1) fibre production from pineapple waste and (2) Accesing viability of carbon credits through biochar production
+from pineapple biomass. Responsibilities span technical, environmental, social, and financial domains to support data-driven
+decision-making and donor compliance.
+Key Contributions:
+• Data Analysis & Reporting: Collected, analyzed, and interpreted performance, eﬀiciency, and environmental impact data;
+developed detailed analytical and narrative reports for stakeholders.
+• Scientific Reporting: Produced technical documentation using statistical methods and data visualization; ensured adherence
+to scientific reporting standards and data accuracy.
+• Impact Reporting: Compiled qualitative and quantitative data to demonstrate project impact; developed case studies and
+success stories highlighting socio-economic benefits.
+• Compliance & Documentation: Ensured timely and accurate grant reporting in line with SMEP/DEFRA requirements;
+coordinated data gathering with project stakeholders.
+• Quality Assurance: Implemented data validation processes to uphold data integrity and accuracy in all reporting deliverables.
+• Energy Consumption Analysis: Analyzed energy usage to uncover eﬀiciency opportunities and supported sustainability-
+focused decision-making.
+• Process Improvement: Identified opportunities for automation and streamlined data workflows; kept abreast of best practices
+in data analysis and storytelling.
+The Cyprus Institute
+Nicosia, Cyprus
+GRADUATE RESEARCH ASSISTANT‑ DATA SCIENCE & AIR QUALITY
+Oct. 2020 - May. 2022
+• The project focused on developing machine learning algorithms to forecast air quality and improve the accuracy of data collected
+from low-cost air quality sensors as part of the Horizon Europe funded EMME-CARE project. The project aimed to
+enhance air quality monitoring capabilities in Nicosia by establishing a network of low-cost sensors. link
+Key achievements:
+• Designed and implemented a network of low-cost air quality sensors across Nicosia, including traﬀic, industrial, and background
+monitoring sites. This strategic setup enabled comprehensive spatial analysis and accurate source apportionment of air pollution,
+improving the understanding of pollution dynamics across the city.
+• Designed and implemented automated data pipelines for real-time data collection, cleaning, and analysis, ensuring continuous
+monitoring of air quality in Nicosia. This helped in making real-time data available for decision-making and public health
+purposes.
+• Created custom tools and dashboards for advanced real-time air quality data visualization, allowing stakeholders to monitor
+and analyze pollution levels dynamically, providing crucial insights for decision-making and public health responses.
+• Developed and deployed advanced ML calibration techniques for low-cost air quality sensors, improving their measurement
+accuracy by reducing systematic errors and ensuring more reliable pollutant data in real-world urban environments.
+• Conducted spatial and temporal analyses of air pollution in Nicosia, identifying key pollution hotspots and temporal patterns,
+which provided actionable insights for environmental policy-making and urban planning to mitigate pollution in high-risk areas.
+• Developed a set of data quality indicators aligned with international air quality monitoring standards, including the US EPA
+and EU Directive 2008/50/EC, ensuring that the project complied with regulatory requirements and contributed to global best
+practices in environmental monitoring.
+Finlays Kenya
+Kericho, Kenya
+RESEARCH AND DATA ANALYST
+Nov. 2018 - Sep. 2020
+Responsible for analyzing sales, customer feedback, and production data to identify trends and optimize marketing strategies,
+while developing AI models to improve tea production eﬀiciency and forecast sales. This enhanced inventory management
+and reduced production costs. Delivered actionable insights and reports to stakeholders, driving informed decision-making and
+business growth.
+Education
+The Cyprus Institute
+Nicosia, Cyprus
+MPHiL. iN ENViRONMENTAL SCiENCES
+Oct. 2020 May. 2022
+Thesis: Practicalities in Machine Learning Calibration of Measurements from Low Cost Gas Sensors.link
+University of Western Cape | AIMS South Africa
+Cape Town, South Africa
+MSC. iN MATHEMATiCAL SCiENCES (DATA SCiENCE)
+Aug. 2017 - June. 2018
+Thesis: Application of Machine Learning to High-Resolution Aerial Imagery for Vegetation Mapping.link
+The University of Nairobi
+Nairobi, Kenya
+BSC. iN MATHEMATiCS ( STATiSTiCS AND OPERATiONS RESEARCH )
+Sep. 2011 - Sep. 2015
+Grade: First Class Honours
+KENYA CERTiFiCATE OF SECONDARY EDUCATiON (KCSE))
+2006 - 2009
+Grade: A-
+Licences & Certifications
+1. DATA SCiENCE APPLiCATiON iN FiNANCiAL SERViCES: LiNK
+Prospect 33 (Global Data Lab)
+2. MLOPS WiTH DATABRiCKS: LiNK
+Linkedln Learning
+3. APPLiED DATA SCiENCE : LiNK
+Prospect 33 (Global Data Lab)
+4. DATA SCiENCE APPLiCATiON iN ANTi‑FiNANCiAL CRiME : LiNK
+Prospect 33 (Global Data Lab)
+5. DATA & DATABASES : LiNK
+Prospect 33 (Global Data Lab)
+6. ETL & ELT : LiNK
+Prospect 33 (Global Data Lab)
+References
+1 : Mark Clement: Global Head of AI and R&D, Prospect 33
++44 791 717 2754; mark.clement@prospect33.com
+2 : Valtars Bondars• Head of Risk & Data Science, Twino(Moneza Kenya)
++37 120 290 947 ; valtars.bondars@twino.eu
+3 : Gilbert Langat• Senior Data Scientist, EZRA,
++254 711 170 904 ; gilbemrlk@gmail.com
+
+
+
+HTML
+Kipkemoi Vincent Portfolio
+body {
+      margin: 0;
+      padding: 0;
+      padding-top: 20px; /* ensures content isn't hidden behind fixed tabs */
+background-color: #123954;
+    }
+
+    section.main.style2#main {
+      padding-top: 30px;
+      margin-top: 0;
+    }
+
+    section#main .container {
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    .tabs {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 10px 20px;
+      background-color: #123954;
+      z-index: 1000;
+      animation: slideDown 0.5s ease-in-out;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+      border-bottom-left-radius: 8px;
+    }
+
+    .tabs button {
+      color: #333;
+      border: none;
+       height: 30px;                  /* example fixed height */
+  line-height: 30px;             /* same as height to center text */
+   padding: 0 15px; 
+   background-color: #006d77;
+      font-size: 11.5px;
+      border-radius: 4px;
+      cursor: pointer;
+      text-transform: capitalize; 
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .tabs button:hover {
+      background-color: rgba(0, 0, 0, 0.07);
+      transform: translateY(1px);
+    }
+
+    .tabs button.active {
+      background-color: #008080;
+      color: white;
+    }
+
+    .tab-content {
+      display: none;
+      animation: fadeIn 0.5s ease-in-out;
+      margin: 5rem 3rem 1.5rem 3rem;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    .skills-section {
+      margin: 10px 10px;
+    }
+
+    .skills-tabs {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .skills-tabs button {
+      padding: 10px 15px;
+      background: #004085;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .skills-tabs button.active {
+      background: #008080;
+    }
+
+    .skills-content {
+      display: none;
+    }
+
+    .skills-content.active {
+      display: block;
+      text-align: center;
+    }
+
+    .skills-content img {
+      margin: 8px;
+      height: 60px;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+
+    @keyframes slideDown {
+      from {
+        transform: translateY(-20px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+function showTab(tabId) {
+      var contents = document.querySelectorAll('.tab-content');
+      var buttons = document.querySelectorAll('.tabs button');
+
+      contents.forEach(function(content) {
+        content.classList.remove('active');
+      });
+
+      buttons.forEach(function(button) {
+        button.classList.remove('active');
+      });
+
+      document.getElementById(tabId).classList.add('active');
+      event.target.classList.add('active');
+    }
+About Me
+Education
+Skills
+Experience
+Projects
+Contact
+Kipkemoi Vincent
+👨‍💻 About Me
+A highly skilled Data Scientist with over 5 years experience in machine learning, data analytics, and predictive modeling. I specialize in anomaly & fraud detection, credit scoring, and developing scalable machine Learning models for capital markets. With a strong background in Python, SQL, and data visualization, I excel at transforming complex datasets into actionable insights across diverse sectors, including climate, fintech, healthcare, and agri-tech.
+Passionate about leveraging advanced analytics to optimize decision-making, minimize risks, and deliver data-driven solutions for business growth. I'm enthusiastic about driving impact through data, and continuously refining processes to improve efficiency and innovation. I am open to remote or Nairobi-based opportunities.
+🎓 Education
+Cyprus Institute
+MPhil in Environmental Sciences
+The Cyprus Institute, Nicosia, Cyprus
+Thesis:
+Practicalities in Machine Learning Calibration of Measurements from Low Cost Gas Sensors.
+Scholarship:
+Cyprus Institute Merit Scholarship
+Grade:
+84%
+AIMS/University of Western Cape
+MSc in Mathematical Sciences (Data Science)
+University of Western Cape / AIMS, South Africa
+Thesis:
+ML on High-Resolution Aerial Imagery for Vegetation Mapping.
+Scholarship:
+MasterCard Foundation Scholarship
+Grade:
+Good Pass [70-84%]
+University of Nairobi
+BSc. in Mathematics (Statistics & Operations Research)
+University of Nairobi, Kenya
+Scholarship:
+Finlays undergraduate Scholarhip
+Grade:
+First Class Honours
+Skills
+Skills Column
+💻 Stack
+All skill icons
+Summary Column
+📋 Professional Summary
+5+ years of experience delivering Data Science and ML solutions across sectors (Fintech, Climate, Healthcare).
+Skilled in data analytics, predictive analytics, credit risk analysis, anomaly & fraud detection, credit scoring, time series forecasting, and scalable ML model deployment.
+Proficient in Python, R, SQL, Scikit-learn, CNN, OpenCV, TensorFlow, RF, LSTM, Catboost, XGBoost, LightGBM, PyOD models, and AWS.
+Experienced with MLOps workflows: Streamlit, Docker, Kubernetes, MLflow, FastAPI, and CI/CD pipelines.
+💼 Recent Roles
+Position: Data Scientist (Prospect 33)
+Data Scientist (R&D)
+Prospect 33
+, New York, Remote
+Feb 2025 – Date
+Responsible for research, development, and deployment of semi-supervised, active learning-based anomaly detection models tailored for financial and operational datasets. Emphasized adaptive model tuning through domain expert feedback loops to maintain high precision and reduce false positive rates in complex capital market environments.
+Developed and deployed an active-learning-based Isolation Forest model that incorporated domain-specific client feedback and expert insights to iteratively improve accuracy and reduce false positives.
+Co-developed DIVA and LEAP, flagship fraud and anomaly detection platforms at Prospect 33 for capital markets, improving detection accuracy and accelerating time-to-value.
+Enhanced backend and frontend capabilities within the LEAP application using Python, Django, and Django REST Framework to improve performance, scalability, and developer efficiency.
+Developed an explainability framework integrating SHAP, LIME, and gradient-based methods, enabling clear, localized insights into anomaly detection decisions to boost stakeholder trust and regulatory alignment.
+Engaged with stakeholders to gather and prioritize product requirements, aligning business needs with development efforts.
+Position: Data Scientist (Twino/Moneza)
+Data Scientist
+Twino (Moneza Kenya)
+, Westlands, Nairobi, Kenya
+May 2023 – Jan 2025
+Responsible for developing and managing loan portfolio credit scoring models for payday loans (PDL) and buy now pay later (BNPL) products. Analyzed trends and risks, generated actionable reports, implemented risk rules, and collaborated with teams to ensure data accuracy and minimize fraud.
+Developed and deployed credit scoring (XGBoost) and fraud detection (CatBoost) models using TransUnion and SEON data, significantly improving loan approval accuracy and strengthening fraud prevention measures.
+Created an automated loan default dashboard tracking daily, weekly, and monthly default rates, enabling proactive risk monitoring and delivering actionable insights.
+Automated payment and debt collection reporting for back-office teams using PostgreSQL, streamlining operations and improving data-driven decision-making.
+Gained in-depth expertise in SQL querying using DBeaver and PostgreSQL. Integrated insights into Preset for automated dashboards, enhancing real-time reporting.
+Led and mentored a team of junior analysts, driving the successful delivery of data-driven solutions in business intelligence, fraud detection, and credit risk analysis.
+Partnered cross-functionally to align technical solutions with business objectives, integrating fraud detection, credit risk, and compliance strategies for impactful outcomes.
+Featured Projects
+Second Row
+Project 6: Healthcare Accessibility
+🤖 Lending Automation - ML for Credit Scoring
+This project delivers an automated loan approval system using ML models like Random Forest, XGBoost, and LightGBM. It replaces manual decisions with fast, scalable processes. Key tasks included cleaning data, feature engineering, and evaluating model fairness—enabling personalized lending, dynamic pricing, and more accurate, data-driven credit scoring.
+Read on Medium
+View on GitHub
+Project 4: Air Quality Monitoring
+🌍 Air Quality Monitoring in Nicosia, Cyprus
+This project calibrates low-cost air sensors using ML models like XGBoost and ANN to match reference-grade accuracy. It analyzes six months of data to study sampling strategies, calibration frequency, and environmental interference. Results support affordable, large-scale urban air quality monitoring that meets EU and EPA standards.
+Read on Medium
+View on GitHub
+Project 5: Anomaly Detection in Finance
+🛡️ Anomaly and Fraud  Detection in Finance
+This project uses PyOD and FLAML AutoML to detect anomalies in imbalanced credit card datasets. Models like Isolation Forest and Autoencoders are evaluated using precision, recall, and ROC-AUC. Sampling techniques (SMOTE, oversampling) enhance model performance, producing a high-precision fraud detection pipeline for robust financial risk management.
+Read on Medium
+View on GitHub
+First Row
+Project 6: Healthcare Accessibility
+🏥 Healthcare Accessibility in Nairobi,Kenya
+This project evaluates healthcare access in Nairobi using demographic and facility data. Anchored in SDG 3, it identifies service gaps by analyzing population coverage, operational hours, and accessibility. Insights support policy interventions aimed at strengthening healthcare delivery and promoting well-being for all city residents.
+Read on Medium
+View on GitHub
+Project 1: COVID-19 CT Scan Detection
+🩺 COVID-19 Detection using Deep Learning CNN
+This project uses CNNs (ResNet50, DenseNet169, MobileNetV2) to detect COVID-19 from chest CT scans. Through preprocessing, augmentation, and ensemble modeling, it achieves high accuracy. Transfer learning boosts performance on real-world data, providing fast and reliable diagnosis support for clinical decision-making in pandemic response.
+Read on Medium
+View on GitHub
+Project 2: Customer Churn Prediction
+📉 Customer Churn Prediction
+This project predicts customer churn using survival analysis and ML models, enabling telecoms to target at-risk users. It analyzes historical behavior to estimate churn risk and customer lifetime value. An interactive tool supports data-driven retention strategies, helping reduce attrition and improve loyalty through personalized interventions.
+View on GitHub
+Second Row
+Project 3: Sales Time Series Forecasting
+📊 Sales Forecasting
+This project analyzes sales data using ARIMA, SARIMA, and Prophet to forecast trends and seasonality. The workflow includes preprocessing, stationarity testing, model tuning, and evaluation. Insights help optimize inventory, resource planning, and decision-making—reducing forecast errors and improving operational efficiency through accurate, data-driven sales forecasting.
+View on GitHub
+Project 4: Air Quality Monitoring
+Project 5: Anomaly Detection in Finance
+📞 Get In Touch
+Contact Form Column
+Let's discuss your next data science project
+Optional: Turn off CAPTCHA and set email subject
+Newsletter and Connect Column
+Newsletter Section
+📰 Weekly Newsletter
+Stay updated with data science insights
+Connect With Me
+🔗 Connect With Me
+LinkedIn
+GitHub
+Email
+Column 1: Contact Info
+📫 Connect with Me
+Email:
+vincentl@aims.ac.za
+Phone:
++254 712 230 453
+Location:
+Nairobi, Kenya
+GitHub
+LinkedIn
+Medium
+Email
+📜 Random Dev Quote
+Footer Bottom Row
+© 2025 Kipkemoi Vincent. All rights reserved.
+function showTab(tabId) {
+    const tabs = document.querySelectorAll('.tab-content');
+    tabs.forEach(tab => tab.classList.remove('active'));
+    document.getElementById(tabId).classList.add('active');
+  }
