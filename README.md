@@ -57,3 +57,60 @@ Below is a clear outline of the tasks I carried out:
 ---
 
 This part of the project established the core AI logic and backend service needed for the chatbot to work. Next, I focused on developing a user interface and deploying both the backend and frontend services to production platforms.
+
+## Part 2: Deployment and User Interface Integration
+
+Once the Vincent Chatbot backend was up and running locally, the next crucial step was transforming it into a **public-facing, interactive web application**. This part involved deploying the FastAPI backend, building a user-friendly frontend interface with Streamlit, and ensuring the two communicated seamlessly. The aim was to demonstrate the chatbot’s usability to anyone, anywhere — all through a browser.
+
+---
+
+### Why This Step Matters
+
+A functional AI model is only as good as its interface. For a chatbot meant to demonstrate a developer’s portfolio, usability and access are key. Deployment bridges the gap between a developer’s local environment and the real world — showing practical, end-to-end proficiency in full-stack development.
+
+This stage demanded skills in:
+
+1. Building an interactive frontend.
+2. Managing APIs and HTTP requests.
+3. Deploying cloud services with environment variables.
+4. Version control with Git and GitHub.
+5. Debugging issues across systems.
+
+---
+
+### 1. Creating the Frontend with Streamlit
+
+To create a simple, clean user interface without diving into complex HTML or JavaScript, I chose **Streamlit**. This Python-based UI framework is perfect for prototyping LLM apps. The app allows users to type in a question about “Vincent” and instantly get an LLM-generated response based on the embedded profile data.
+
+**Frontend Features:**
+
+- Title and branding
+- Input text box for queries
+- Button to trigger requests
+- Output display area
+- Error handling for failed API calls
+
+**Streamlit App Code (app.py):**
+
+```python
+import streamlit as st
+import requests
+
+st.set_page_config(page_title="Vincent Chatbot", layout="centered")
+st.title("🤖 Vincent Chatbot")
+st.markdown("Ask me anything about Vincent’s professional profile!")
+
+query = st.text_input("Your question")
+
+if st.button("Submit"):
+    if query:
+        try:
+            response = requests.post("https://your-api-url.onrender.com/chat", json={"query": query})
+            result = response.json()
+            st.markdown("### 🧠 Response:")
+            st.write(result.get("response", "No response received."))
+        except Exception as e:
+            st.error(f"API request failed: {e}")
+    else:
+        st.warning("Please enter a question before submitting.")
+
