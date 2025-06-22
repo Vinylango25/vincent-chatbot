@@ -110,3 +110,54 @@ The subsequent sections will dive deeper into each component, illustrating the r
 
 This comprehensive stack of technologies and tools was essential for building a robust, scalable, and maintainable chatbot tailored to my profile. The integration of these components facilitated smooth development workflows and seamless deployment of the chatbot to a live environment.
 
+## Step 3: Project Structure and Key Components
+
+To maintain a clean and organized codebase, the project is structured into logical directories and files that separate concerns clearly:
+
+vincent-chatbot/
+├── profile_docs/
+│ ├── api_server.py # FastAPI backend serving chatbot API
+│ ├── portfolio_text.txt # Source document containing profile info
+│ ├── db/ # Persistent Chroma vector database storage
+│ └── init.py
+├── app.py # Streamlit frontend app (optional)
+├── .env # Environment variables (API keys, secrets)
+├── .gitignore # Git ignore file to exclude env, venv, etc.
+├── requirements.txt # Python dependencies
+├── README.md # Project documentation (this file)
+└── venv/ # Virtual environment (excluded from repo)
+
+
+### Explanation of Key Files
+
+- **api_server.py:**  
+  This is the heart of the backend. It loads the profile text, splits it into chunks, generates embeddings, and builds a vector database using Chroma. It defines the FastAPI server with a `/chat` POST endpoint which takes user queries, retrieves relevant documents, and invokes the OpenRouter-powered LLM to generate context-aware responses.
+
+- **portfolio_text.txt:**  
+  Contains detailed text about my professional background, skills, education, and projects. This text acts as the knowledge base for the chatbot.
+
+- **db/:**  
+  The directory where Chroma persists vector embeddings and metadata. It allows for fast retrieval without rebuilding embeddings on every server start.
+
+- **app.py:**  
+  Optional Streamlit app for a friendly UI, allowing users to chat with Vincent Bot via a web browser instead of command-line or curl.
+
+- **.env:**  
+  Securely holds API keys like `OPENROUTER_API_KEY` to access LLM services without hardcoding sensitive information.
+
+- **requirements.txt:**  
+  Lists all Python packages needed to run the project, making setup and deployment straightforward.
+
+### Development Practices
+
+- **Use of Virtual Environment:**  
+  All dependencies are installed in a dedicated `venv` to avoid conflicts with global Python packages.
+
+- **Git for Version Control:**  
+  The project is tracked via Git and hosted on GitHub to maintain code history and enable collaborative development.
+
+This structure keeps the chatbot modular, scalable, and easy to maintain or extend with new features.
+
+---
+
+
